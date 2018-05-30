@@ -1,0 +1,29 @@
+<ion-view title="Electrical Usage Calculator" id="page1">
+  <ion-content padding="true" class="has-header">
+    <form id="electricalUsageCalculator-form1" class="list">
+      <label class="item item-input item-stacked-label" id="electricalUsageCalculator-input1" name="previous_month">
+        <span class="input-label">Previous Month (kWh)</span>
+        <input type="number" placeholder="" id="previous_month">
+      </label>
+      <label class="item item-input item-stacked-label" id="electricalUsageCalculator-input2" name="current_month">
+        <span class="input-label">Current Month (kWh)</span>
+        <input type="number" placeholder="" id="current_month">
+      </label>
+      <label class="item item-input item-stacked-label" id="electricalUsageCalculator-input3" name="first_usage">
+        <span class="input-label">First 200 kWh Usage Rate:</span>
+        <input type="number" placeholder="" id="first_usage">
+      </label>
+      <label class="item item-input item-stacked-label" id="electricalUsageCalculator-input4" name="after_usage">
+        <span class="input-label">After 200 kWh Usage Rate:</span>
+        <input type="number" placeholder="" id="after_usage">
+      </label>
+    </form>
+    <button id="electricalUsageCalculator-button1" class="button button-positive button-block">Calculate Bill!</button>
+    <form id="electricalUsageCalculator-form2" class="list">
+      <label class="item item-input item-stacked-label" id="electricalUsageCalculator-input5" name="price">
+        <span class="input-label">RM:</span>
+        <input type="number" placeholder="" id="total_price">
+      </label>
+    </form>
+  </ion-content>
+</ion-view>
